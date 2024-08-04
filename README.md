@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PerfectMenu
 
 ![PerfectMenu](./icon.jpg)
