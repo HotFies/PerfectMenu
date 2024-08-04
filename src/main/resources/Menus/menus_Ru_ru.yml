@@ -1,0 +1,91 @@
+reload_succes: "&aОбновление успешно завершено!"
+reload_unsucces: "&cОшибка при обновлении!"
+cosmetica:
+  menu_title: ':offset_-15::menu_cosmetica:'
+  size: 54
+  open_sound:
+    - 'ENTITY_CHICKEN_EGG'
+  permission:
+    permission: perfectmenu.menu
+    deny_message:
+      - "&c&lFiesta &6>> &eНе думаю, что тебе это нужно!"
+  items:
+    'previous_game':
+      material: PAPER
+      CustomModelData: 99999
+      slot: 0
+      display_name: '&fНазад'
+      left_click_commands:
+        - "[openmenu] info"
+      right_click_commands:
+        - "[openmenu] info"
+    'vibor':
+      material: PAPER
+      CustomModelData: 99999
+      slot: 49
+      display_name: '&fВЫБРАТЬ!'
+      left_click_commands:
+        - "[console] playmusic %player_name% music_disc.open_menu"
+        - "[player] customizazia"
+      right_click_commands:
+        - "[console] playmusic %player_name% music_disc.open_menu"
+        - "[player] customizazia"
+    'info':
+      material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTczMzBjYTVkNmE3MTQ0OGNkYzk1MGJmMGFkYWMyMTcwMjdlODUwNDQ0MTZlMTQzMjk5ZDk5NjQ0YjkxOTZhOSJ9fX0
+      CustomModelData: null
+      slot: 3
+      display_name: '&6Информация'
+      hide_attributes: true
+      lore:
+        - '&7клик'
+      left_click_commands:
+        - "[openmenu] info"
+      right_click_commands:
+        - "[openmenu] info"
+    'close':
+      material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzM4YWIxNDU3NDdiNGJkMDljZTAzNTQzNTQ5NDhjZTY5ZmY2ZjQxZDllMDk4YzY4NDhiODBlMTg3ZTkxOSJ9fX0=
+      CustomModelData: null
+      slot: 45
+      display_name: '&cЗакрыть'
+      left_click_commands:
+        - "[close]"
+      right_click_commands:
+        - "[close]"
+effects:
+  menu_title: '&eЭффекты'
+  size: 54
+  open_sound:
+    - 'ENTITY_CHICKEN_EGG'
+  permission:
+    permission: perfectmenu.menu
+    deny_message:
+      - "&c&lFiesta &6>> &eНе думаю, что тебе это нужно!"
+  items:
+    'dark':
+      material: BOW
+      CustomModelData: 223
+      slot: 0
+      priority: 1
+      display_name: '&4Темный Лук'
+      hide_attributes: true
+      lore:
+        - '&eЛКМ - Применить скин'
+        - '&eПКМ - Осмотреть скин'
+      permission: perfectskins.223
+      left_click_commands:
+        - "[player] pfskins change bow 223"
+        - "[refresh]"
+      right_click_commands:
+        - "[player] pfskins view bow 223"
+    'dark_noperm':
+      material: BOW
+      CustomModelData: 223
+      slot: 0
+      priority: 2
+      display_name: '&4Темный Лук'
+      hide_attributes: true
+      lore:
+        - '&eК сожалению, у вас не'
+        - '&eкуплен данный скин.'
+        - '&eВы его также можете'
+        - '&eВыбить из кейса!'

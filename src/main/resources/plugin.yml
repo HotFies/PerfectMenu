@@ -1,0 +1,12 @@
+name: PerfectMenu
+version: '${project.version}'
+main: hotfies.perfectmenu.PerfectMenu
+api-version: '1.21'
+load: STARTUP
+authors: [Aneras, Dem1ch]
+description: This plugin create a custom menu
+commands:
+  perfectmenu:
+    description: Main command
+    usage: /perfectmenu
+    aliases: [ pfmenu ]
