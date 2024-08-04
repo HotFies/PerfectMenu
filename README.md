@@ -72,6 +72,4 @@ cosmetica:
         - "[refresh]"
       right_click_commands:
         - "[player] pfskins view bow 223"
-=======
 # PerfectMenu
->>>>>>> origin/master
